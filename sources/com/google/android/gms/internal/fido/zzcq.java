@@ -1,0 +1,32 @@
+package com.google.android.gms.internal.fido;
+
+import java.util.NoSuchElementException;
+
+/* compiled from: com.google.android.gms:play-services-fido@@20.1.0 */
+/* loaded from: classes11.dex */
+final class zzcq extends zzcs {
+    final /* synthetic */ zzcz zza;
+    private int zzb = 0;
+    private final int zzc;
+
+    /* JADX INFO: Access modifiers changed from: package-private */
+    public zzcq(zzcz zzczVar) {
+        this.zza = zzczVar;
+        this.zzc = this.zza.zzd();
+    }
+
+    @Override // java.util.Iterator
+    public final boolean hasNext() {
+        return this.zzb < this.zzc;
+    }
+
+    @Override // com.google.android.gms.internal.fido.zzcu
+    public final byte zza() {
+        int i = this.zzb;
+        if (i >= this.zzc) {
+            throw new NoSuchElementException();
+        }
+        this.zzb = i + 1;
+        return this.zza.zzb(i);
+    }
+}

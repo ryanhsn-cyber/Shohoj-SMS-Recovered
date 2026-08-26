@@ -1,0 +1,14 @@
+.idea/
+*.iml
+.gradle/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+local.properties
+*.apk
+*.jks
+*.keystore
+bin/
+gen/
+out/

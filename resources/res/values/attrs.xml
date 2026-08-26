@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="action" format="string">
+    </attr>
+    <attr name="alpha" format="float">
+    </attr>
+    <attr name="argType" format="string">
+    </attr>
+    <attr name="buttonSize" format="reference">
+        <enum name="standard" value="0" />
+        <enum name="wide" value="1" />
+        <enum name="icon_only" value="2" />
+    </attr>
+    <attr name="circleCrop" format="boolean">
+    </attr>
+    <attr name="colorScheme" format="reference">
+        <enum name="dark" value="0" />
+        <enum name="light" value="1" />
+        <enum name="auto" value="2" />
+    </attr>
+    <attr name="data" format="string">
+    </attr>
+    <attr name="dataPattern" format="string">
+    </attr>
+    <attr name="destination" format="reference">
+    </attr>
+    <attr name="enterAnim" format="reference">
+    </attr>
+    <attr name="exitAnim" format="reference">
+    </attr>
+    <attr name="font" format="reference">
+    </attr>
+    <attr name="fontProviderAuthority" format="string">
+    </attr>
+    <attr name="fontProviderCerts" format="reference">
+    </attr>
+    <attr name="fontProviderFetchStrategy">
+        <enum name="blocking" value="0" />
+        <enum name="async" value="1" />
+    </attr>
+    <attr name="fontProviderFetchTimeout" format="integer">
+        <enum name="forever" value="-1" />
+    </attr>
+    <attr name="fontProviderPackage" format="string">
+    </attr>
+    <attr name="fontProviderQuery" format="string">
+    </attr>
+    <attr name="fontProviderSystemFontFamily" format="string">
+    </attr>
+    <attr name="fontStyle">
+        <enum name="normal" value="0" />
+        <enum name="italic" value="1" />
+    </attr>
+    <attr name="fontVariationSettings" format="string">
+    </attr>
+    <attr name="fontWeight" format="integer">
+    </attr>
+    <attr name="graph" format="reference">
+    </attr>
+    <attr name="imageAspectRatio" format="float">
+    </attr>
+    <attr name="imageAspectRatioAdjust">
+        <enum name="none" value="0" />
+        <enum name="adjust_width" value="1" />
+        <enum name="adjust_height" value="2" />
+    </attr>
+    <attr name="lStar" format="float">
+    </attr>
+    <attr name="launchSingleTop" format="boolean">
+    </attr>
+    <attr name="mimeType" format="string">
+    </attr>
+    <attr name="navGraph" format="reference">
+    </attr>
+    <attr name="nestedScrollViewStyle" format="reference">
+    </attr>
+    <attr name="nullable" format="boolean">
+    </attr>
+    <attr name="popEnterAnim" format="reference">
+    </attr>
+    <attr name="popExitAnim" format="reference">
+    </attr>
+    <attr name="popUpTo" format="reference">
+    </attr>
+    <attr name="popUpToInclusive" format="boolean">
+    </attr>
+    <attr name="popUpToSaveState" format="boolean">
+    </attr>
+    <attr name="queryPatterns" format="reference">
+    </attr>
+    <attr name="restoreState" format="boolean">
+    </attr>
+    <attr name="route" format="string">
+    </attr>
+    <attr name="scopeUris" format="reference|string">
+    </attr>
+    <attr name="shortcutMatchRequired" format="boolean">
+    </attr>
+    <attr name="startDestination" format="reference">
+    </attr>
+    <attr name="targetPackage" format="string">
+    </attr>
+    <attr name="ttcIndex" format="integer">
+    </attr>
+    <attr name="uri" format="string">
+    </attr>
+    <attr name="zxing_framing_rect_height" format="dimension">
+    </attr>
+    <attr name="zxing_framing_rect_width" format="dimension">
+    </attr>
+    <attr name="zxing_possible_result_points" format="color">
+    </attr>
+    <attr name="zxing_preview_scaling_strategy">
+        <enum name="centerCrop" value="1" />
+        <enum name="fitCenter" value="2" />
+        <enum name="fitXY" value="3" />
+    </attr>
+    <attr name="zxing_result_view" format="color">
+    </attr>
+    <attr name="zxing_scanner_layout" format="reference">
+    </attr>
+    <attr name="zxing_use_texture_view" format="boolean">
+    </attr>
+    <attr name="zxing_viewfinder_laser" format="color">
+    </attr>
+    <attr name="zxing_viewfinder_laser_visibility" format="boolean">
+    </attr>
+    <attr name="zxing_viewfinder_mask" format="color">
+    </attr>
+</resources>
